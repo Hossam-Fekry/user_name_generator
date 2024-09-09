@@ -3,7 +3,9 @@
 #   *add widgets to the window ✅
 #   *make the generate file and function ✅
 #   *connect with generate files and output results ✅
-#   *make the style of the main window more good
+
+#FIXME:-
+#   *delete the unused lines ✅
 
 #Importing Libraries
 from tkinter import *
@@ -19,10 +21,7 @@ def send_data():
         messagebox.showerror("Error", "Please enter your first and last name")
     else:
         user_name = generate.generate(f_name, l_name)
-        print(user_name)
-
         user_name = str(user_name)
-        print(user_name)
         user_name_l.config(text=f"user name: {user_name}")
         
 #make the root of the app
