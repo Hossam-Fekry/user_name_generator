@@ -2,14 +2,14 @@
 #   *make the main window of gui ✅
 #   *add widgets to the window ✅
 #   *make the generate file and function ✅
-#   *connect with generate files and output results
+#   *connect with generate files and output results ✅
 #   *make the style of the main window more good
 
 #Importing Libraries
 from tkinter import *
 import generate
 from tkinter import messagebox
-#maek the main variables
+#make the main variables
 user_name = ""
 #make the send function
 def send_data():
@@ -32,7 +32,7 @@ root.geometry("400x400+550+200")
 root.resizable(False, False)
 
 #make the widgets
-#frist name label
+#first name label
 
 f_name_l = Label(root, text="First Name: ", font="arial 15",)
 f_name_l.place(x=10, y=50)
