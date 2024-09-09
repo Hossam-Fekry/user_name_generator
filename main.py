@@ -1,7 +1,8 @@
 #TODO:-
 #   *make the main window of gui ✅
 #   *add widgets to the window ✅
-#   *connect with backend 
+#   *make the generate file and function
+#   *connect with generate files
 #   *make the style of the main window more good
 
 #Importing Libraries
@@ -39,6 +40,8 @@ l_name_e.place(x=125, y=150)
 #make the button
 generate_button = Button(root, text="Generate", font="arial 15",)
 generate_button.place(x=150, y=230)
+
+
 
 
 root.mainloop()
